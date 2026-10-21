@@ -11,7 +11,7 @@ public class AutoPauseEnableCommand {
     static int SetAutoPauseEnabled(CommandContext<?> con, boolean enabled) {
         CommandSourceStack source = (CommandSourceStack) con.getSource();
         var msg = Component.literal("Autopause is %s".formatted(enabled));
-        source.sendSuccess(() -> msg, false);
+        source.sendSuccess(msg, false);
         Provider.get().setEnabled(enabled);
         return 1;
     }

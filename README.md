@@ -19,3 +19,7 @@ resumeWaitTicks = 600
 ```
 ## Acknowledgements
 Inspired by [Chunky Extension](https://modrinth.com/mod/chunky-extension) for Fabric.
+
+## 1.19.2 Forge backport
+
+This fork targets Minecraft 1.19.2 / Forge 43 with Chunky 1.3.38.
